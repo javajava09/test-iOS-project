@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D9774F19B00CE100198FBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D9774E19B00CE100198FBC /* Foundation.framework */; };
+		05D9775119B00CE100198FBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D9775019B00CE100198FBC /* CoreGraphics.framework */; };
+		05D9775319B00CE100198FBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D9775219B00CE100198FBC /* UIKit.framework */; };
+		05D9775919B00CE100198FBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05D9775719B00CE100198FBC /* InfoPlist.strings */; };
+		05D9775B19B00CE100198FBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9775A19B00CE100198FBC /* main.m */; };
+		05D9775F19B00CE100198FBC /* TimeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9775E19B00CE100198FBC /* TimeAppDelegate.m */; };
+		05D9776219B00CE100198FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D9776019B00CE100198FBC /* Main.storyboard */; };
+		05D9776519B00CE100198FBC /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9776419B00CE100198FBC /* TimeViewController.m */; };
+		05D9776719B00CE100198FBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D9776619B00CE100198FBC /* Images.xcassets */; };
+		05D9776E19B00CE200198FBC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D9776D19B00CE200198FBC /* XCTest.framework */; };
+		05D9776F19B00CE200198FBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D9774E19B00CE100198FBC /* Foundation.framework */; };
+		05D9777019B00CE200198FBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D9775219B00CE100198FBC /* UIKit.framework */; };
+		05D9777819B00CE200198FBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05D9777619B00CE200198FBC /* InfoPlist.strings */; };
+		05D9777A19B00CE200198FBC /* Time_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9777919B00CE200198FBC /* Time_ConverterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05D9777119B00CE200198FBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05D9774319B00CE100198FBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05D9774A19B00CE100198FBC;
+			remoteInfo = "Time Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05D9774B19B00CE100198FBC /* Time Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D9774E19B00CE100198FBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05D9775019B00CE100198FBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05D9775219B00CE100198FBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05D9775619B00CE100198FBC /* Time Converter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Time Converter-Info.plist"; sourceTree = "<group>"; };
+		05D9775819B00CE100198FBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05D9775A19B00CE100198FBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05D9775C19B00CE100198FBC /* Time Converter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Time Converter-Prefix.pch"; sourceTree = "<group>"; };
+		05D9775D19B00CE100198FBC /* TimeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeAppDelegate.h; sourceTree = "<group>"; };
+		05D9775E19B00CE100198FBC /* TimeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeAppDelegate.m; sourceTree = "<group>"; };
+		05D9776119B00CE100198FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05D9776319B00CE100198FBC /* TimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
+		05D9776419B00CE100198FBC /* TimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
+		05D9776619B00CE100198FBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05D9776C19B00CE200198FBC /* Time ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D9776D19B00CE200198FBC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		05D9777519B00CE200198FBC /* Time ConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Time ConverterTests-Info.plist"; sourceTree = "<group>"; };
+		05D9777719B00CE200198FBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05D9777919B00CE200198FBC /* Time_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Time_ConverterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05D9774819B00CE100198FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D9775119B00CE100198FBC /* CoreGraphics.framework in Frameworks */,
+				05D9775319B00CE100198FBC /* UIKit.framework in Frameworks */,
+				05D9774F19B00CE100198FBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05D9776919B00CE200198FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D9776E19B00CE200198FBC /* XCTest.framework in Frameworks */,
+				05D9777019B00CE200198FBC /* UIKit.framework in Frameworks */,
+				05D9776F19B00CE200198FBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D9774219B00CE100198FBC = {
+			isa = PBXGroup;
+			children = (
+				05D9775419B00CE100198FBC /* Time Converter */,
+				05D9777319B00CE200198FBC /* Time ConverterTests */,
+				05D9774D19B00CE100198FBC /* Frameworks */,
+				05D9774C19B00CE100198FBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05D9774C19B00CE100198FBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05D9774B19B00CE100198FBC /* Time Converter.app */,
+				05D9776C19B00CE200198FBC /* Time ConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05D9774D19B00CE100198FBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05D9774E19B00CE100198FBC /* Foundation.framework */,
+				05D9775019B00CE100198FBC /* CoreGraphics.framework */,
+				05D9775219B00CE100198FBC /* UIKit.framework */,
+				05D9776D19B00CE200198FBC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05D9775419B00CE100198FBC /* Time Converter */ = {
+			isa = PBXGroup;
+			children = (
+				05D9775D19B00CE100198FBC /* TimeAppDelegate.h */,
+				05D9775E19B00CE100198FBC /* TimeAppDelegate.m */,
+				05D9776019B00CE100198FBC /* Main.storyboard */,
+				05D9776319B00CE100198FBC /* TimeViewController.h */,
+				05D9776419B00CE100198FBC /* TimeViewController.m */,
+				05D9776619B00CE100198FBC /* Images.xcassets */,
+				05D9775519B00CE100198FBC /* Supporting Files */,
+			);
+			path = "Time Converter";
+			sourceTree = "<group>";
+		};
+		05D9775519B00CE100198FBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05D9775619B00CE100198FBC /* Time Converter-Info.plist */,
+				05D9775719B00CE100198FBC /* InfoPlist.strings */,
+				05D9775A19B00CE100198FBC /* main.m */,
+				05D9775C19B00CE100198FBC /* Time Converter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05D9777319B00CE200198FBC /* Time ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				05D9777919B00CE200198FBC /* Time_ConverterTests.m */,
+				05D9777419B00CE200198FBC /* Supporting Files */,
+			);
+			path = "Time ConverterTests";
+			sourceTree = "<group>";
+		};
+		05D9777419B00CE200198FBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05D9777519B00CE200198FBC /* Time ConverterTests-Info.plist */,
+				05D9777619B00CE200198FBC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05D9774A19B00CE100198FBC /* Time Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D9777D19B00CE200198FBC /* Build configuration list for PBXNativeTarget "Time Converter" */;
+			buildPhases = (
+				05D9774719B00CE100198FBC /* Sources */,
+				05D9774819B00CE100198FBC /* Frameworks */,
+				05D9774919B00CE100198FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time Converter";
+			productName = "Time Converter";
+			productReference = 05D9774B19B00CE100198FBC /* Time Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05D9776B19B00CE200198FBC /* Time ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D9778019B00CE200198FBC /* Build configuration list for PBXNativeTarget "Time ConverterTests" */;
+			buildPhases = (
+				05D9776819B00CE200198FBC /* Sources */,
+				05D9776919B00CE200198FBC /* Frameworks */,
+				05D9776A19B00CE200198FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05D9777219B00CE200198FBC /* PBXTargetDependency */,
+			);
+			name = "Time ConverterTests";
+			productName = "Time ConverterTests";
+			productReference = 05D9776C19B00CE200198FBC /* Time ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05D9774319B00CE100198FBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Time;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nadia Ahmed";
+				TargetAttributes = {
+					05D9776B19B00CE200198FBC = {
+						TestTargetID = 05D9774A19B00CE100198FBC;
+					};
+				};
+			};
+			buildConfigurationList = 05D9774619B00CE100198FBC /* Build configuration list for PBXProject "Time Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05D9774219B00CE100198FBC;
+			productRefGroup = 05D9774C19B00CE100198FBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05D9774A19B00CE100198FBC /* Time Converter */,
+				05D9776B19B00CE200198FBC /* Time ConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05D9774919B00CE100198FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D9776719B00CE100198FBC /* Images.xcassets in Resources */,
+				05D9775919B00CE100198FBC /* InfoPlist.strings in Resources */,
+				05D9776219B00CE100198FBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05D9776A19B00CE200198FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D9777819B00CE200198FBC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05D9774719B00CE100198FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D9775B19B00CE100198FBC /* main.m in Sources */,
+				05D9775F19B00CE100198FBC /* TimeAppDelegate.m in Sources */,
+				05D9776519B00CE100198FBC /* TimeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05D9776819B00CE200198FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D9777A19B00CE200198FBC /* Time_ConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05D9777219B00CE200198FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05D9774A19B00CE100198FBC /* Time Converter */;
+			targetProxy = 05D9777119B00CE200198FBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05D9775719B00CE100198FBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05D9775819B00CE100198FBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05D9776019B00CE100198FBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05D9776119B00CE100198FBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05D9777619B00CE200198FBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05D9777719B00CE200198FBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05D9777B19B00CE200198FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05D9777C19B00CE200198FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05D9777E19B00CE200198FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Time Converter/Time Converter-Prefix.pch";
+				INFOPLIST_FILE = "Time Converter/Time Converter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05D9777F19B00CE200198FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Time Converter/Time Converter-Prefix.pch";
+				INFOPLIST_FILE = "Time Converter/Time Converter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		05D9778119B00CE200198FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Time Converter.app/Time Converter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Time Converter/Time Converter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Time ConverterTests/Time ConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		05D9778219B00CE200198FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Time Converter.app/Time Converter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Time Converter/Time Converter-Prefix.pch";
+				INFOPLIST_FILE = "Time ConverterTests/Time ConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05D9774619B00CE100198FBC /* Build configuration list for PBXProject "Time Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D9777B19B00CE200198FBC /* Debug */,
+				05D9777C19B00CE200198FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05D9777D19B00CE200198FBC /* Build configuration list for PBXNativeTarget "Time Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D9777E19B00CE200198FBC /* Debug */,
+				05D9777F19B00CE200198FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05D9778019B00CE200198FBC /* Build configuration list for PBXNativeTarget "Time ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D9778119B00CE200198FBC /* Debug */,
+				05D9778219B00CE200198FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05D9774319B00CE100198FBC /* Project object */;
+}
