@@ -21,6 +21,7 @@
 		05D9777019B00CE200198FBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D9775219B00CE100198FBC /* UIKit.framework */; };
 		05D9777819B00CE200198FBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05D9777619B00CE200198FBC /* InfoPlist.strings */; };
 		05D9777A19B00CE200198FBC /* Time_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9777919B00CE200198FBC /* Time_ConverterTests.m */; };
+		05D9778419B00D5200198FBC /* mf-do-the-right-things-at-the-right-time_f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05D9778319B00D5200198FBC /* mf-do-the-right-things-at-the-right-time_f.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		05D9777519B00CE200198FBC /* Time ConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Time ConverterTests-Info.plist"; sourceTree = "<group>"; };
 		05D9777719B00CE200198FBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		05D9777919B00CE200198FBC /* Time_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Time_ConverterTests.m; sourceTree = "<group>"; };
+		05D9778319B00D5200198FBC /* mf-do-the-right-things-at-the-right-time_f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mf-do-the-right-things-at-the-right-time_f.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		05D9775519B00CE100198FBC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				05D9778319B00D5200198FBC /* mf-do-the-right-things-at-the-right-time_f.jpg */,
 				05D9775619B00CE100198FBC /* Time Converter-Info.plist */,
 				05D9775719B00CE100198FBC /* InfoPlist.strings */,
 				05D9775A19B00CE100198FBC /* main.m */,
@@ -232,6 +235,7 @@
 				05D9776719B00CE100198FBC /* Images.xcassets in Resources */,
 				05D9775919B00CE100198FBC /* InfoPlist.strings in Resources */,
 				05D9776219B00CE100198FBC /* Main.storyboard in Resources */,
+				05D9778419B00D5200198FBC /* mf-do-the-right-things-at-the-right-time_f.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
